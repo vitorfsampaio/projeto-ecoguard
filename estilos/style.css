@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navega{
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.13);
+    position: sticky;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
+}
+
+nav{
+    background-color: white;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 20px
+    
+}
+
+#doar{
+    background-color: #7ED957;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.logo{
+    width: 160px;
+    height: 45px;
+}
+
+.sumario {
+    text-align: left;
+    margin: 55px auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+.sumario > a {
+    text-decoration: none;
+    color: green;
+    margin-right: 10px;
+}
+
+.news-container {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 3.5rem;
+}
+
+main>p {
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+.legenda{
+    margin-bottom: 30px;
+}
+
+.imagens{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .news-container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.9rem;
+    }
+
+    .sumario {
+        width: 80%;
+    }
+}
