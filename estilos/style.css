@@ -18,7 +18,21 @@ nav{
     font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 20px
-    
+}
+
+.nav-link:hover{
+    color: #7ED957;
+    transition: .3s;
+}
+
+.dropdown-item{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.dropdown-item:hover{
+    color: #67b147;
+    transition: .3s;
 }
 
 #doar{
